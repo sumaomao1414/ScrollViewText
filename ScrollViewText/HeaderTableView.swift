@@ -15,12 +15,12 @@ class HomeScrollPageView: HJTabViewController,HJTabViewControllerDataSource, HJT
         super.viewDidLoad()
         self.tabDelegate = self
         self.tabDataSource = self
-        
+        self.headerZoomIn = false
         let tabViewBar = HJDefaultTabViewBar()
         tabViewBar.delegate = self;
         let tabViewBarPlugin = HJTabViewControllerPlugin_TabViewBar.init(tabViewBar: tabViewBar, delegate: nil)
         enablePlugin(tabViewBarPlugin)
-        enablePlugin(HJTabViewControllerPlugin_HeaderScroll())
+       // enablePlugin(HJTabViewControllerPlugin_HeaderScroll())
         
     }
     
@@ -58,6 +58,7 @@ class HomeScrollPageView: HJTabViewController,HJTabViewControllerDataSource, HJT
     func tabHeaderView(for tabViewController: HJTabViewController!) -> UIView! {
         let view = UIView(frame:CGRect(x: 0, y: 0, width: 375, height: 250))
         view.backgroundColor = UIColor.yellow
+        view.isUserInteractionEnabled = true
         return view
     }
     

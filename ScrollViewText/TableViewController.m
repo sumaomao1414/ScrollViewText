@@ -24,7 +24,7 @@
     UIImage *image = [UIImage imageNamed:(self.index == 0 ? @"2": @"3")];
     UIImageView *imageBg = [[UIImageView alloc] initWithImage:image];
     imageBg.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width * image.size.height / image.size.width);
-    [self.tableView insertSubview:imageBg atIndex:0];
+   // [self.tableView insertSubview:imageBg atIndex:0];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
