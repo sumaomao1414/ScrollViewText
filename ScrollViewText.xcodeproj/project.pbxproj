@@ -14,6 +14,17 @@
 		2E7892341FC67056006B859E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7892321FC67056006B859E /* LaunchScreen.storyboard */; };
 		2E78923F1FC67056006B859E /* ScrollViewTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E78923E1FC67056006B859E /* ScrollViewTextTests.swift */; };
 		2E78924A1FC67056006B859E /* ScrollViewTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892491FC67056006B859E /* ScrollViewTextUITests.swift */; };
+		2E78925A1FC67067006B859E /* HJDefaultTabViewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892591FC67067006B859E /* HJDefaultTabViewBar.m */; };
+		2E78926B1FC67074006B859E /* HJTabViewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78925D1FC67074006B859E /* HJTabViewBar.m */; };
+		2E78926C1FC67074006B859E /* HJTabViewController+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892601FC67074006B859E /* HJTabViewController+ViewController.m */; };
+		2E78926D1FC67074006B859E /* HJTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892621FC67074006B859E /* HJTabViewController.m */; };
+		2E78926E1FC67074006B859E /* HJTabViewControllerPlugin_Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892641FC67074006B859E /* HJTabViewControllerPlugin_Base.m */; };
+		2E78926F1FC67074006B859E /* HJTabViewControllerPlugin_BottomInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892661FC67074006B859E /* HJTabViewControllerPlugin_BottomInset.m */; };
+		2E7892701FC67074006B859E /* HJTabViewControllerPlugin_HeaderScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892681FC67074006B859E /* HJTabViewControllerPlugin_HeaderScroll.m */; };
+		2E7892711FC67074006B859E /* HJTabViewControllerPlugin_TabViewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78926A1FC67074006B859E /* HJTabViewControllerPlugin_TabViewBar.m */; };
+		2E7892751FC671BD006B859E /* HeaderTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892731FC671BD006B859E /* HeaderTabViewController.m */; };
+		2E7892781FC671E0006B859E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892771FC671E0006B859E /* TableViewController.m */; };
+		2E78927A1FC6784F006B859E /* HeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7892791FC6784F006B859E /* HeaderTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,29 @@
 		2E7892451FC67056006B859E /* ScrollViewTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7892491FC67056006B859E /* ScrollViewTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTextUITests.swift; sourceTree = "<group>"; };
 		2E78924B1FC67056006B859E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7892581FC67067006B859E /* HJDefaultTabViewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDefaultTabViewBar.h; sourceTree = "<group>"; };
+		2E7892591FC67067006B859E /* HJDefaultTabViewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDefaultTabViewBar.m; sourceTree = "<group>"; };
+		2E78925C1FC67074006B859E /* HJTabViewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabViewBar.h; sourceTree = "<group>"; };
+		2E78925D1FC67074006B859E /* HJTabViewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabViewBar.m; sourceTree = "<group>"; };
+		2E78925E1FC67074006B859E /* HJTabViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HJTabViewController+Private.h"; sourceTree = "<group>"; };
+		2E78925F1FC67074006B859E /* HJTabViewController+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HJTabViewController+ViewController.h"; sourceTree = "<group>"; };
+		2E7892601FC67074006B859E /* HJTabViewController+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HJTabViewController+ViewController.m"; sourceTree = "<group>"; };
+		2E7892611FC67074006B859E /* HJTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabViewController.h; sourceTree = "<group>"; };
+		2E7892621FC67074006B859E /* HJTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabViewController.m; sourceTree = "<group>"; };
+		2E7892631FC67074006B859E /* HJTabViewControllerPlugin_Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabViewControllerPlugin_Base.h; sourceTree = "<group>"; };
+		2E7892641FC67074006B859E /* HJTabViewControllerPlugin_Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabViewControllerPlugin_Base.m; sourceTree = "<group>"; };
+		2E7892651FC67074006B859E /* HJTabViewControllerPlugin_BottomInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabViewControllerPlugin_BottomInset.h; sourceTree = "<group>"; };
+		2E7892661FC67074006B859E /* HJTabViewControllerPlugin_BottomInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabViewControllerPlugin_BottomInset.m; sourceTree = "<group>"; };
+		2E7892671FC67074006B859E /* HJTabViewControllerPlugin_HeaderScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabViewControllerPlugin_HeaderScroll.h; sourceTree = "<group>"; };
+		2E7892681FC67074006B859E /* HJTabViewControllerPlugin_HeaderScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabViewControllerPlugin_HeaderScroll.m; sourceTree = "<group>"; };
+		2E7892691FC67074006B859E /* HJTabViewControllerPlugin_TabViewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabViewControllerPlugin_TabViewBar.h; sourceTree = "<group>"; };
+		2E78926A1FC67074006B859E /* HJTabViewControllerPlugin_TabViewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabViewControllerPlugin_TabViewBar.m; sourceTree = "<group>"; };
+		2E7892721FC670B4006B859E /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		2E7892731FC671BD006B859E /* HeaderTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTabViewController.m; sourceTree = "<group>"; };
+		2E7892741FC671BD006B859E /* HeaderTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTabViewController.h; sourceTree = "<group>"; };
+		2E7892761FC671DF006B859E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2E7892771FC671E0006B859E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2E7892791FC6784F006B859E /* HeaderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +133,18 @@
 			children = (
 				2E7892291FC67056006B859E /* AppDelegate.swift */,
 				2E78922B1FC67056006B859E /* ViewController.swift */,
+				2E7892741FC671BD006B859E /* HeaderTabViewController.h */,
+				2E7892731FC671BD006B859E /* HeaderTabViewController.m */,
+				2E7892791FC6784F006B859E /* HeaderTableView.swift */,
+				2E7892761FC671DF006B859E /* TableViewController.h */,
+				2E7892771FC671E0006B859E /* TableViewController.m */,
 				2E78922D1FC67056006B859E /* Main.storyboard */,
 				2E7892301FC67056006B859E /* Assets.xcassets */,
+				2E7892571FC67067006B859E /* HJTabViewBar */,
+				2E78925B1FC67074006B859E /* HJTabViewController */,
 				2E7892321FC67056006B859E /* LaunchScreen.storyboard */,
 				2E7892351FC67056006B859E /* Info.plist */,
+				2E7892721FC670B4006B859E /* BridgeHeader.h */,
 			);
 			path = ScrollViewText;
 			sourceTree = "<group>";
@@ -123,6 +165,37 @@
 				2E78924B1FC67056006B859E /* Info.plist */,
 			);
 			path = ScrollViewTextUITests;
+			sourceTree = "<group>";
+		};
+		2E7892571FC67067006B859E /* HJTabViewBar */ = {
+			isa = PBXGroup;
+			children = (
+				2E7892581FC67067006B859E /* HJDefaultTabViewBar.h */,
+				2E7892591FC67067006B859E /* HJDefaultTabViewBar.m */,
+			);
+			path = HJTabViewBar;
+			sourceTree = "<group>";
+		};
+		2E78925B1FC67074006B859E /* HJTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E78925C1FC67074006B859E /* HJTabViewBar.h */,
+				2E78925D1FC67074006B859E /* HJTabViewBar.m */,
+				2E78925E1FC67074006B859E /* HJTabViewController+Private.h */,
+				2E78925F1FC67074006B859E /* HJTabViewController+ViewController.h */,
+				2E7892601FC67074006B859E /* HJTabViewController+ViewController.m */,
+				2E7892611FC67074006B859E /* HJTabViewController.h */,
+				2E7892621FC67074006B859E /* HJTabViewController.m */,
+				2E7892631FC67074006B859E /* HJTabViewControllerPlugin_Base.h */,
+				2E7892641FC67074006B859E /* HJTabViewControllerPlugin_Base.m */,
+				2E7892651FC67074006B859E /* HJTabViewControllerPlugin_BottomInset.h */,
+				2E7892661FC67074006B859E /* HJTabViewControllerPlugin_BottomInset.m */,
+				2E7892671FC67074006B859E /* HJTabViewControllerPlugin_HeaderScroll.h */,
+				2E7892681FC67074006B859E /* HJTabViewControllerPlugin_HeaderScroll.m */,
+				2E7892691FC67074006B859E /* HJTabViewControllerPlugin_TabViewBar.h */,
+				2E78926A1FC67074006B859E /* HJTabViewControllerPlugin_TabViewBar.m */,
+			);
+			path = HJTabViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E78926F1FC67074006B859E /* HJTabViewControllerPlugin_BottomInset.m in Sources */,
+				2E78926D1FC67074006B859E /* HJTabViewController.m in Sources */,
+				2E78926C1FC67074006B859E /* HJTabViewController+ViewController.m in Sources */,
 				2E78922C1FC67056006B859E /* ViewController.swift in Sources */,
+				2E78927A1FC6784F006B859E /* HeaderTableView.swift in Sources */,
+				2E78926E1FC67074006B859E /* HJTabViewControllerPlugin_Base.m in Sources */,
+				2E7892751FC671BD006B859E /* HeaderTabViewController.m in Sources */,
 				2E78922A1FC67056006B859E /* AppDelegate.swift in Sources */,
+				2E7892781FC671E0006B859E /* TableViewController.m in Sources */,
+				2E7892711FC67074006B859E /* HJTabViewControllerPlugin_TabViewBar.m in Sources */,
+				2E78926B1FC67074006B859E /* HJTabViewBar.m in Sources */,
+				2E78925A1FC67067006B859E /* HJDefaultTabViewBar.m in Sources */,
+				2E7892701FC67074006B859E /* HJTabViewControllerPlugin_HeaderScroll.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tianque.ScrollViewText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ScrollViewText/BridgeHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tianque.ScrollViewText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ScrollViewText/BridgeHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
